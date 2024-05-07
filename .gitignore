@@ -1,0 +1,53 @@
+# Node.js 관련
+node_modules
+dist
+.env
+*.local
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# MacOS
+.DS_Store
+
+# VSCode 관련
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Yarn Berry (yarn 2+)
+.cache/yarn
+.pnp.*
+.pnp
+
+# IntelliJ IDEA 관련
+.idea
+
+# Vite
+.vite
+.cache
+
+# Webpack
+webpack-stats.json
+
+# Test coverage
+coverage
+
+# Parcel-bundler
+.cache
+.parcel-cache
+
+# Storybook
+out
+storybook-static
+
+# Misc
+*.log
+*.tmp
+.sass-cache
+*.swp
